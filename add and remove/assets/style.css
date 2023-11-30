@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.titulo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Brasil-img{
+    width: 300px;
+    display: flex;
+}
+.brasil-caixa{
+    margin-left: 100px;
+    
+}
+.fivb-img{
+    width: 300px;
+    
+}
+.fivb-caixa{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.italia{
+    margin-left: 100px;
+    width: 300px;
+    
+}
+.header-italia{
+    display: flex;
+    flex-direction: column;
+}
+.header-br{
+    display: flex;
+    flex-direction: column;
+}
