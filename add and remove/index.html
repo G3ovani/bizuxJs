@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <h1 class="titulo">Placar de volei</h1>
+    <div class="container">
+    
     <div class="Brasil">
         <header class="header-br">
             <div class="brasil-caixa">
@@ -22,16 +23,19 @@
                 <p>3 set</p>
                 <p>4 set</p>
                 <p>5 set</p>
-                <button></button>
-                <button></button>
+                <button id="adicionar">Adicionar</button>
+                <button id="remover">Remover</button>
             </div>
             
         </header>
     </div>
+    
     <div class="fivb-caixa">
-        <img class="fivb-img" src="https://upload.wikimedia.org/wikipedia/commons/4/46/F%C3%A9d%C3%A9ration_Internationale_de_Volleyball_logo.png"
-            alt="">
-        <h1>Placar atual</h1>
+        <h1 class="titulo">Placar de volei</h1>
+        <img class="fivb-img" src="https://upload.wikimedia.org/wikipedia/commons/4/46/F%C3%A9d%C3%A9ration_Internationale_de_Volleyball_logo.png"alt="">
+        <h1 class="atual">Placar atual</h1>
+        <p><span id="brasil">0</span> x <span id="italia">0</span></p>
+        
     </div>
     <div class="italia">
         <header class="header-italia">
@@ -43,10 +47,11 @@
             <p>3 set</p>
             <p>4 set</p>
             <p>5 set</p>
-            <button></button>
-            <button></button>
+            <button id="adicionar2">Adicionar</button>
+            <button id="remover2" >Remover</button>
         </header>
     </div>
+</div>
     <script src="assets/volei.js"></script>
 </body>
 
